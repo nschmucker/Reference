@@ -20,12 +20,12 @@ Make the Repo work for you, but *keep it organized* and *keep your README up to 
 
 ## Example workflow
 
-1. Save a raw_data.xlsx file into the Raw Data directory
-2. Create a `clean_data_script.R` in the Analysis directory to clean raw_data.xlsx and save clean_data.xlsx in the Clean Data directory.
-3. Create a `primary_analysis.R` file in the Analysis directory. This file references clean_data.xlsx and saves any outputs to the Images directory
+1. Save a `raw_data.xlsx` file into the Raw Data directory
+2. Create a `clean_data_script.R` in the Analysis directory to clean `raw_data.xlsx` and save `clean_data.xlsx` in the Clean Data directory.
+3. Create a `primary_analysis.R` file in the Analysis directory. This file references `clean_data.xlsx` and saves any outputs to the Images directory
 4. Create additional analysis files in the Analysis directory. Potentially create a `functions.R` file in the Functions directory as the codebase matures
-5. Create a Final_Presentation.rmd in the top-level directory when I am ready to share my work
-6. Along the way, keep the README up to date!
+5. Create a `Final_Presentation.rmd` in the top-level directory when I am ready to share my work
+6. Along the way, keep the `README` up to date!
 
 ## Comment on integration with GitHub
 
@@ -35,7 +35,7 @@ The first rule of using GitHub is to adhere to whatever standards your team uses
 
 What you won’t see in this repo that is in most (all?) of my analytics repos is an `.RProj` file. This file (and some hidden files that don’t get committed to GitHub) set up a project environment in R Studio. The environment has several advantages, including allowing for relative references to files using the project directory as the root. 
 
-Fortunately for you, the R Project also integrates well with Git. Unfortunately for you, this means that getting everything onto GitHub purely for examples’ sake can be complicated (Google “Git submodule”). So, I’ve left out the `.RProj` file. But ordinarily it’s easy to put one at the top of your Git directory. You should have one. 
+Fortunately for you, the R Project also integrates well with Git. Unfortunately for you, this means that getting everything onto GitHub purely for examples’ sake can be complicated (Google “Git submodule” and then cower in fear). So, I’ve left out the `.RProj` file. But ordinarily it’s easy to put one at the top of your Git directory. You should have one. 
 
 It’s easy: RStudio > File > New Project > Existing Directory > Find your Directory > Create Project
 
