@@ -1,1 +1,0 @@
-Save images in this directory.

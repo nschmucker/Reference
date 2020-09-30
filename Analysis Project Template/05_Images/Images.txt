@@ -1,0 +1,3 @@
+If your script generates images such as .png versions of plots, save them in this directory.
+
+Your final report / analysis can reference the saved image.
