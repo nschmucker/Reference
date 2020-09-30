@@ -1,0 +1,3 @@
+Save raw data in this directory.
+
+Don't ever edit these files.

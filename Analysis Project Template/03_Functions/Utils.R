@@ -1,5 +1,5 @@
 # This file holds various utility functions
-# To load these functions, call source("./Functions/Utils.R")
+# To load these functions, call source("./03_Functions/Utils.R")
 
 # Function to capitalize the first letter of each word
 totitle <- function(x) {
